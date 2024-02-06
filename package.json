@@ -1,0 +1,36 @@
+{
+  "name": "@g-lib/sizeof",
+  "version": "0.0.2",
+  "description": "A utility function, that helps to determine the size or the length of various types",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "vitest run",
+    "build": "tsup",
+    "lint": "tsc",
+    "release": "pnpm run lint && pnpm run test && pnpm run build && changeset publish"
+  },
+  "keywords": [
+    "size",
+    "length",
+    "Array",
+    "String",
+    "Object",
+    "Map",
+    "Set",
+    "Function",
+    "Class"
+  ],
+  "author": "Gabriel",
+  "repository": "https://github.com/9a8ri3L/sizeof",
+  "homepage": "https://github.com/9a8ri3L/sizeof#readme",
+  "bugs": "https://github.com/9a8ri3L/sizeof/issues",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.2"
+  }
+}
