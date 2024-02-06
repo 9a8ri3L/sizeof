@@ -28,7 +28,7 @@
  *
  *
  *@author Gabriel |
- *{@link https://github.com/9a8ri3L/size Github}
+ *{@link https://github.com/9a8ri3L/sizeof Github}
  *
  * @license MIT License
  * ```

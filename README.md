@@ -3,7 +3,7 @@
 
 ![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/9a8ri3L/sizeof)
 ![GitHub contributors](https://img.shields.io/github/contributors-anon/9a8ri3L/sizeof)
-![npm package minimized gzipped size](https://img.shields.io/bundlejs/size/@g-lab/sizeof)
+![npm package minimized gzipped size](https://img.shields.io/bundlejs/size/@g-lib/sizeof)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/9a8ri3L/sizeof)
 
 # sizeof
@@ -13,25 +13,25 @@
 #### install
 
 ```
-npm i @g-lab/sizeof
+npm i @g-lib/sizeof
 ```
 
 ```
-yarn add @g-lab/sizeof
+yarn add @g-lib/sizeof
 ```
 
 ```
-pnpm add @g-lab/sizeof
+pnpm add @g-lib/sizeof
 ```
 
 ### Usage:
 
 ```ts
-import sizeof from "@g-lab/sizeof";
+import sizeof from "@g-lib/sizeof";
 
 // or
 
-const sizeof = require("@g-lab/sizeof");
+const sizeof = require("@g-lib/sizeof");
 
 console.log(sizeof({ foo: "bar", bar: "baz" })); // 2
 console.log(sizeof([1, 2, 3])); // 3
