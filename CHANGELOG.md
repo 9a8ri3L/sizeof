@@ -1,5 +1,11 @@
 # @g-lib/sizeof
 
+## 1.0.0
+
+### Major Changes
+
+- Interop with CommonJS
+
 ## 0.0.2
 
 ### Patch Changes

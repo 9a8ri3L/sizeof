@@ -1,7 +1,7 @@
 {
   "name": "@g-lib/sizeof",
-  "version": "0.0.2",
-  "description": "A utility function, that helps to determine the size or the length of various types",
+  "version": "1.0.0",
+  "description": "A utility function that calculates the size or the length of various types.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -11,6 +11,9 @@
     "lint": "tsc",
     "release": "pnpm run lint && pnpm run test && pnpm run build && changeset publish"
   },
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "size",
     "length",

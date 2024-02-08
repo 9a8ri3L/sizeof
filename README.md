@@ -1,14 +1,17 @@
+![GitHub Release](https://img.shields.io/github/v/release/9a8ri3L/sizeof)
+![NPM License](https://img.shields.io/npm/l/%40g-lib%2Fsizeof)
 ![GitHub forks](https://img.shields.io/github/forks/9a8ri3L/sizeof?style=plastix&color=yellow)
 ![GitHub stars](https://img.shields.io/github/stars/9a8ri3L/sizeof?style=flat-square)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/1adbc875e33c46d1a07ee1d2dc8abdf0)](https://app.codacy.com/gh/9a8ri3L/sizeof/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/9a8ri3L/sizeof/total)
 
-![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/9a8ri3L/sizeof)
+![GitHub commits since latest release](https://img.shields.io/github/commits-since/9a8ri3L/sizeof/latest)
 ![GitHub contributors](https://img.shields.io/github/contributors-anon/9a8ri3L/sizeof)
-![npm package minimized gzipped size](https://img.shields.io/bundlejs/size/@g-lib/sizeof)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/t/9a8ri3L/sizeof)
+![npm bundle size (scoped)](https://img.shields.io/bundlephobia/minzip/%40g-lib/sizeof)
 
 # sizeof
 
-### A utility function that calculates the size or length of any given input.
+### A utility function that calculates the size or the length of various types.
 
 #### install
 
@@ -76,6 +79,6 @@ console.log(
 ); // 1
 ```
 
-### License: MIT
-
 #### Contributing is always welcomed.
+
+### License [MIT](https://choosealicense.com/licenses/mit/)
