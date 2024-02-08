@@ -6,5 +6,6 @@ export default defineConfig({
   format: ['cjs', 'esm'],
   dts: true,
   entry: ['index.ts'],
-  cjsInterop: true
+  cjsInterop: true,
+  splitting: true,
 })

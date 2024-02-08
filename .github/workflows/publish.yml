@@ -1,19 +1,17 @@
 name: Publish
 on:
+  pull_request:
   push:
     branches:
       - main
-  pull_request:
-    branches:
-      - main
+
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 permissions: {}
 jobs:
   publish:
     permissions:
-      contents: write
-      issues: write
-      pull-requests: write
+      contents: read
+
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
