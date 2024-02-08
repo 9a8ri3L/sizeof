@@ -1,5 +1,11 @@
 # @g-lib/sizeof
 
+## 1.0.1
+
+### Patch Changes
+
+- Activating changesets pull requests
+
 ## 1.0.0
 
 ### Major Changes
