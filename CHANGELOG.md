@@ -1,5 +1,11 @@
 # @g-lib/sizeof
 
+## 1.0.3
+
+### Patch Changes
+
+- Fix version release
+
 ## 1.0.2
 
 ### Patch Changes
